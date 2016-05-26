@@ -31,3 +31,6 @@ if len(urls):
     with open('output.jpg', 'wb') as handle:
         for block in torrent.iter_content(1024):
             handle.write(block)
+
+# scp it
+# https://forum.transmissionbt.com/viewtopic.php?t=15071
